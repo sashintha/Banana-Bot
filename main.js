@@ -1,3 +1,6 @@
+const data = require('./token.json');
+
+
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
@@ -32,5 +35,6 @@ client.on('message', message =>{
 
 })
 
-client.login('ODE0MzYyODQ5MTk5NjUyODg0.YDcwgQ.WyIUrQQvlWd6XBqy8db8JXycNm4')
+
+client.login(data.token);
 
