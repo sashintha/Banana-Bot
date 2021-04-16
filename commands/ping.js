@@ -5,4 +5,11 @@ module.exports ={
     execute(message, args){
         message.channel.send("test 2")
     }
+
+    // name: 'music',
+    // description: "",
+    // execute(message, args){
+    //     message.channel.send("test 2")
+    // }
+
 }
